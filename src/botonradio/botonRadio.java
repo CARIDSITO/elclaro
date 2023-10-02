@@ -65,6 +65,7 @@ public class botonRadio {
 		rdbtnRojo.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				lblColor.setBackground(Color.red);	
+				
 			}
 		});
 		rdbtnRojo.setFont(new Font("Verdana", Font.BOLD, 12));
